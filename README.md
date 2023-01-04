@@ -1,5 +1,3 @@
-# new-profile-page
+# OBFUSCATE CSS CLASSES
 
-profile page
-
-link: https://frogdude1123.vercel.app/
+Obfuscate Tailwind CSS Classes In Nextjs using `mangle-css-class-webpack-plugin`
