@@ -1,0 +1,15 @@
+.wallpaper-hover-effect {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  mask-image: radial-gradient(white, black);
+
+  &:hover {
+    transform: scale(105%);
+    filter: brightness(75%);
+    transition: 300ms ease-out;
+  }
+}
+
+.icon-rotate:hover {
+  transform: rotate(360deg);
+  transition: 300ms cubic-bezier(1, 0, 0.5, 1);
+}
